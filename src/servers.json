@@ -1,0 +1,103 @@
+[
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.modelcontextprotocol/server-github",
+      "description": "MCP server for GitHub API integration - manage repositories, issues, pull requests, and more",
+      "repository": {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "source": "github"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@modelcontextprotocol/server-github",
+          "version": "0.7.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": "GITHUB_PERSONAL_ACCESS_TOKEN",
+              "description": "GitHub Personal Access Token for API authentication",
+              "isRequired": true,
+              "isSecret": true
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-01-15T10:00:00Z",
+        "updatedAt": "2025-01-15T10:00:00Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.modelcontextprotocol/server-filesystem",
+      "description": "Secure file system operations with configurable access controls",
+      "repository": {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "source": "github"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@modelcontextprotocol/server-filesystem",
+          "version": "0.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-01-15T10:00:00Z",
+        "updatedAt": "2025-01-15T10:00:00Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.modelcontextprotocol/server-memory",
+      "description": "Knowledge graph-based persistent memory system for AI agents",
+      "repository": {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "source": "github"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@modelcontextprotocol/server-memory",
+          "version": "0.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-01-15T10:00:00Z",
+        "updatedAt": "2025-01-15T10:00:00Z",
+        "isLatest": true
+      }
+    }
+  }
+]
